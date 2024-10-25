@@ -1,0 +1,33 @@
+.account-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.account-group {
+    width: 25%;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    border: 1px solid;
+}
+
+.account-list {
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.account-list:hover {
+    background-color: #ddd;
+}
+
+.account-action {
+    width: 55%;
+    padding: 20px;
+    border: 1px solid;
+}

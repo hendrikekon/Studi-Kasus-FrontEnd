@@ -1,0 +1,36 @@
+.card-product-placeholder {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 200px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.placeholder-image, .placeholder-name, .placeholder-price, .placeholder-button {
+    background-color: #f0f0f0;
+    margin: 8px 0;
+}
+
+.placeholder-image {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.placeholder-name {
+    width: 60%;
+    height: 20px;
+}
+
+.placeholder-price {
+    width: 40%;
+    height: 20px;
+}
+
+.placeholder-button {
+    width: 80%;
+    height: 40px;
+    border-radius: 4px;
+}

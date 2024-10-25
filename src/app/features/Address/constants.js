@@ -1,0 +1,4 @@
+export const FETCH_ADDRESSES_SUCCESS = 'features/Address/FETCH_ADDRESSES_SUCCESS';
+export const FETCH_ADDRESSES_ERROR = 'features/Address/FETCH_ADDRESSES_ERROR';
+export const CREATE_ADDRESS_SUCCESS = 'features/Address/CREATE_ADDRESS_SUCCESS';
+export const CREATE_ADDRESS_ERROR = 'features/Address/CREATE_ADDRESS_ERROR'

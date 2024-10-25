@@ -1,0 +1,105 @@
+
+.order-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-group {
+    margin-bottom: 20px;
+}
+
+.order-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.order-list {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-list p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #495057;
+}
+
+.order-list-price {
+    font-weight: bold;
+    color: #28a745;
+    margin-top: 10px;
+}
+
+.order-delivery-tittle {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #343a40;
+}
+
+.order-address-selected,
+.order-noaddress-selected {
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.order-address-selected p {
+    margin: 5px 0;
+}
+
+.order-delivery-fee {
+    font-size: 16px;
+    color: #007bff;
+    margin-top: 10px;
+}
+
+.order-select-delivery {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    width: 100%;
+}
+
+.order-total-Price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #dc3545;
+    margin-top: 20px;
+}
+
+.btn-order {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-order:hover {
+    background-color: #0056b3;
+}
+
+.order-select-address-list {
+    margin-bottom: 15px;
+}
+
+.order-select-address-list a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.order-select-address-list a:hover {
+    text-decoration: underline;
+}

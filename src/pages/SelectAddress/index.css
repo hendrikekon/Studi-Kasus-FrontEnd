@@ -1,0 +1,91 @@
+.select-address-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.select-address-group1 {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.select-address-group2 {
+    margin-bottom: 20px;
+}
+
+.select-address-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.select-address-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.select-address-li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.select-address-li:hover {
+    background-color: #f0f0f0;
+}
+
+.select-address-label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.radio-address {
+    margin-right: 10px;
+    accent-color: #007bff;
+}
+
+.btn-select-address {
+    width: 100%;
+    padding: 10px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    border-radius: 4px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-select-address:hover {
+    background-color: #0056b3;
+}
+
+.p-no-address {
+    text-align: center;
+    color: #777;
+}
+
+
+.select-address-list {
+    margin-bottom: 10px;
+}
+
+.select-address-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: block;
+    text-align: center; 
+}
+
+.select-address-list a:hover {
+    text-decoration: underline;
+}

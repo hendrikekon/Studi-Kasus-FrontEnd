@@ -1,0 +1,40 @@
+.product-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+}.tag-page{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    margin-top: 70px;
+}
+.tag-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+.tag-label{
+    border: 1px solid ;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #b5b5b5;
+}
+.tag-label:hover{
+    cursor: pointer;
+}
+.tag-label.selected {
+    background-color: #e0bb43;
+    color: #ffffff;
+}
+.card-product, .card-product-placeholder {
+    flex: 0 0 30%;
+    margin: 16px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,33 @@
+.form-add-address{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-address-list{
+    width: 100%;
+    height: 6rem;
+}
+
+.add-address-label{
+    width: 20%;
+    height: 1rem;
+}
+
+.add-address-input{
+    width:100%;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #e4e4e4;
+}
+
+.add-address-select{
+    width:100%;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #e4e4e4;
+}
+
+.btn-add-address{
+    width:100%;
+}
